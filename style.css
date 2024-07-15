@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>img{
+    height: 70%;
+}
+nav>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover                                                                                                                                                                                                                                                                                                     {
+    color: rgb(243, 63, 63);
+}
+nav a:active{
+    color: rgb(243, 63, 63);
+}
+nav button{
+    background-color: rgb(243, 63, 63);
+    color: white;
+    padding: auto;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+nav button:active{
+    background-color: white;
+    color: rgb(243, 63, 63);
+    padding: auto;
+    border:1px solid rgb(243, 63, 63);
+    outline: rgb(243, 63, 63);
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: white;
+    color: rgb(243, 63, 63);
+    padding: auto;
+    border:1px solid rgb(243, 63, 63);
+    outline: rgb(243, 63, 63);
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+.sectionone{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionone p{
+    color: gray;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+}
+.firstdiv{
+    width: 50%;
+    padding-left: 5%;
+    height: 80%;
+    margin: auto;
+}
+.firstdivparttwo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+.firstdivparttwo>h3{
+    font-size: 25px;
+
+}
+.firstdiv button{
+    width: 130px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:hsl(228, 45%, 44%) ;
+    color: white;
+    margin-right: 10px;
+    padding: auto;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+}
+.firstdiv button:active{
+    outline: hsl(228, 45%, 44%);
+    border:1px solid hsl(228, 45%, 44%);
+    background-color:white ;
+    color: hsl(228, 45%, 44%);
+}
+.firstdiv button:hover{
+    outline: hsl(228, 45%, 44%);
+    border:1px solid hsl(228, 45%, 44%);
+    background-color:white ;
+    color: hsl(228, 45%, 44%);
+}
+#firefoxbutton{
+    color: black;
+    background-color: rgb(201, 199, 199);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+}
+#firefoxbutton:active{
+    color: black;
+    background-color: white;
+    border:1px solid black;
+}
+#firefoxbutton:hover{
+    color: black;
+    background-color: white;
+    border:1px solid black;
+}
+h1{
+    color: black;
+    width: 80%;
+    font-size: 45px;
+
+}
+.seconddiv{
+    background-image: url(./bookmark-landing-page-master/images/backgroundleft.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 80% 75%;
+    width: 50%;
+}
+#seconddivtwo{
+    background-image: url(./bookmark-landing-page-master/images/backgroundright.jpg);
+    background-position: left bottom;
+    position: relative;
+}
+#seconddivtwo>img{
+    width: 80%;
+    height: 82%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.seconddiv>img{
+    width: 95%;
+    height: 90%;
+}
+.thirddiv{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.thirddiv h2{
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+.thirddiv p{
+    color: gray;   
+}
+.forthdiv{
+    width: 40%;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+.featureslinks{
+    text-decoration: none;
+    color: gray;
+}
+.featureslinks:active{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+}
+.featureslinks:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+}
+.sectiontwo{
+    margin-top: 10%;
+}
+.sectionthree{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 56%;
+    margin: auto;
+}
+.fourthdiv{
+    width: 30%;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.3);
+    padding-top: 6%;
+    padding-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 9px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.fourthdivone{
+    margin-top: 35px;
+    margin-bottom:35px ;
+}
+.fourthdivtwo{
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.fourthdiv>img{
+    width: 38%;
+    height: 33%;
+    margin-left: 28%;
+    margin-right: 30%;
+    margin-bottom: 9%;
+}
+.fourthdiv>h4{
+    font-size: 15px;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding-left: 7%;
+}
+.fourthdiv>p{
+    color: gray;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 7%;
+}
+#dots{
+    width: 100%;
+    height: 4px;
+    margin-bottom: 3%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.fourthdiv>button{
+    color: white;
+    background-color: hsl(228, 45%, 44%);
+    width: 85%;
+    height: 20%;
+    margin-left: 7.5%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.fourthdiv>button:active{
+    color: hsl(228, 45%, 44%);
+    background-color: white;
+    border: 1px solid hsl(228, 45%, 44%);
+    outline: hsl(228, 45%, 44%);
+}
+.fourthdiv>button:hover{
+    color: hsl(228, 45%, 44%);
+    background-color: white;
+    border: 1px solid hsl(228, 45%, 44%);
+    outline: hsl(228, 45%, 44%);
+}
+.sectionfour{
+    margin-top: 5%;
+}
+.sectionfour>h2{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 25px;
+    text-align: center;
+}
+.sectionfour>p{
+    color: gray;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.fifthdiv{
+    width: 30%;
+    height: 50px;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   border-top: 1px solid gray;
+    align-items: center;
+}
+.fifthdivlast{
+    border-bottom: 1px solid gray;
+}
+.sectionfour>button{
+    width: 9%;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:hsl(228, 45%, 44%) ;
+    color: white;
+    margin-left: 47%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: auto;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.4);
+}
+.sectionfour>button:active{
+    outline: hsl(228, 45%, 44%);
+    border:1px solid hsl(228, 45%, 44%);
+    background-color:white ;
+    color: hsl(228, 45%, 44%);
+}
+.sectionfour>button:hover{
+    outline: hsl(228, 45%, 44%);
+    border:1px solid hsl(228, 45%, 44%);
+    background-color:white ;
+    color: hsl(228, 45%, 44%);
+}
+.sectionfive{
+    background-color:hsl(228, 45%, 44%) ;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.sectionfive>p{
+    width: 12%;
+    color: white;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.sectionfive>h3{
+    color: white;
+    width: 23%;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.sixthdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    margin: auto;
+}
+.sixthdiv>button{
+    background-color: rgb(243, 63, 63);
+    color: white;
+    padding: auto;
+    border: none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+.sixthdiv>button:active{
+    background-color: white;
+    color: rgb(243, 63, 63);
+    padding: auto;
+    border:1px solid rgb(243, 63, 63);
+    outline: rgb(243, 63, 63);
+}
+.sixthdiv>button:hover{
+    background-color: white;
+    color: rgb(243, 63, 63);
+    padding: auto;
+    border:1px solid rgb(243, 63, 63);
+    outline: rgb(243, 63, 63);
+}
+.sixthdiv>input{
+    width: 70%;
+}
+.sectionsix{
+    background-color: rgb(1, 1, 34);
+    padding: 1.5%;
+    padding-left: 9%;
+    padding-right: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seventhdiv{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seventhdiv>img{
+    height: 70%;
+}
+.sectionsix a{
+    text-decoration: none;
+    color: white;
+    font-size: 11.5px;
+}
+.sectionsix a:active{
+    color: rgb(243, 63, 63);
+}
+.sectionsix a:hover{
+    color: rgb(243, 63, 63);
+}
+.eigthdiv{
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 2560px ) {
+    .iconhamburger{
+        display: none;
+    }
+}   
+@media (max-width: 1024px ) {
+    .fourthdiv{
+        padding-bottom: 6%;
+    }
+    .sectionfive>p{
+        width: 18%;
+    }
+    .sectionfive>h3{
+        width: 30%;
+    }
+    .sixthdiv{
+        width: 30%;
+    }
+    .seventhdiv>img{
+        width: 35%;
+    }
+    .sectionsix a{
+        font-size: 11px;
+    }
+    .eigthdiv{
+        height: 60%;
+    }
+}  
+@media (max-width: 768px) {
+    nav a{
+        font-size: 10px;
+    }
+    nav button{
+        width: 75px;
+        height: 35px;
+    }
+    .thirddiv{
+        width:60%;
+    }
+    .forthdiv{
+        width: 60%;
+    }
+    #seconddivtwo>img{
+        height: 65%;
+    }
+    #sectiononeparttwo{
+        height: 30%;
+    }
+    .sectionthree{
+        width: 75%;
+    }
+    .fourthdiv{
+        padding-bottom: 6%;
+    }
+    .sectionfour>h2{
+        width: 60%;
+    }
+    .sectionfour>p{
+        width: 60%;
+    }
+    .fifthdiv{
+        width: 60%;
+    }
+    .sectionfour>button{
+        width: 10%;
+    }
+    .sectionfive>p{
+        width: 25%;
+    }
+    .sectionfive>h3{
+        width: 42%;
+    }
+    .sixthdiv{
+        width: 42%;
+    }
+    .seventhdiv>img{
+        width: 35%;
+    }
+    .sectionsix a{
+        font-size: 9px;
+    }
+    .eigthdiv{
+        height: 60%;
+    }
+}
+@media (max-width: 425px ) {
+    nav{
+        padding-top: 6%;
+    }
+    nav div{
+        display: none;
+    }
+    .iconhamburger{
+        display: flex;
+    }
+    .sectionone{
+        display: block;
+    }
+    .sectionone p{
+        text-align: center;
+        width: 100%;
+    }
+    h1{
+        width: 100%;
+        font-size: 27px;
+        text-align: center;
+    }
+    .firstdiv{
+        padding: auto;
+        width: 75%;
+        margin: auto;
+    }
+    .seconddiv{
+        margin-top: 10%;
+        margin-right: 0;
+        padding-right: 0;
+        width: 85%;
+    }
+    .sectionthree{
+        display: block;
+    }
+    .firstdiv-div{
+        width: 88%;
+        margin: auto;
+    }
+    .firstdiv button{
+        width: 40%;
+    }
+    .thirddiv{
+        width:80%;
+    }
+    .forthdiv{
+        width: 80%;
+        margin: auto;
+        border-bottom: none;
+        margin-bottom: 2%;
+        display: block;
+    }
+    .forthdiv>a{
+        display: block;
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid gray;
+        padding-bottom: 15px;
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .firstfeaturelink{
+        border-top: 1px solid gray;
+        padding-top: 15px;
+    }
+    .firstdivparttwo{
+        padding-top: 0; 
+        width: 85%;
+    }
+    .firstdivparttwo>h3{
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        margin: auto;
+    }
+    .firstdivparttwo>button{
+        width: 40%;
+        margin-left: 30%;
+    }
+    .sectionthree{gap: 0;}
+    .fourthdiv{
+        width: 85%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 30px;
+    }
+    .fourthdiv>button{
+        height: 40px;
+    }
+    .fourthdivtwo{
+        margin-top: 0;
+        margin-bottom: 20%;
+    }
+    .fourthdivfirst{
+        margin-top: 35px;
+    }
+    .fourthdiv>img{
+        height: 25%;
+    }
+  .sectionfour p{
+    margin-bottom: 10%;
+  }
+  .fifthdiv{
+    align-items: center;
+    padding: auto;
+  }
+  .fifthdiv p{
+    font-size: 13px;
+  }
+  .sectionfour>button{
+    width: 25%;
+    margin-left: 40%;
+}
+.sectionfive>p{
+    width: 45%;
+}
+.sectionfive>h3{
+    width: 90%;
+}
+.sixthdiv{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.sixthdiv>button{
+    background-color: rgb(243, 63, 63);
+    color: white;
+    padding: auto;
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+}
+#inputone{
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20%;
+    margin: auto;
+    text-align: center;
+}
+.sectionsix{
+    display: block;
+}
+.seventhdiv{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+.seventhdiv a{
+    margin-top: 10%;
+    font-size: 15px;
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20%;
+}
+.seventhdiv img{
+    width: 100%;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+.eigthdiv{
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+}
